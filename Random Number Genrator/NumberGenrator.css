@@ -1,0 +1,71 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+section
+{
+
+    background-color: rgb(94, 91, 91);
+    border: 1px solid black;
+    border-radius: 7px;
+    height: 350px;
+    width: 450px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+#labelcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 25px;
+
+}
+#Roll{
+    width: 70px;
+    height: 50px;
+    margin: 20px 20px;
+    padding: 15px 15px;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: rgba(139, 66, 207, 0.37);
+    border: 1px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+#Roll:hover{
+    background-color: hsl(271, 59%, 45%);
+}
+.dice{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 15px;
+    pad: 15px 15px;
+    border: 1px solid black;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(122, 122, 112);
+    color: white;
+    font-style: italic;
+    font-size:large;
+    
+}
+.dice:hover{
+    background-color: hsl(60, 4%, 35%);
+}
